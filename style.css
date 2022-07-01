@@ -1,0 +1,81 @@
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+body{
+    background-color: #EEEDE7;
+}
+
+th{
+    font-family: 'Dongle', sans-serif;
+    font-size: 45pt;
+    border: 1px solid #868B8E;
+    border-collapse: collapse;
+    text-align: center;
+    align-items: center;
+    width: 120px;
+    height: 80px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color:#B9B7BD;
+    color: black;
+    
+}
+
+table{
+    margin: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 15px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    background-color:#E7D2CC;
+    color: white;
+    text-align: center;
+    border-spacing: 0ch;
+}
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    background-color:#868B8E;
+    color: white;
+    text-align: center;
+    border-spacing: 0ch;
+}
+
+td{
+    font-size: medium;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.eq {
+    font-size: xx-large;
+}
+.heading{
+    margin-top: auto;
+    margin-bottom: 0%;
+    font-family: 'Dongle', sans-serif;
+    font-size: 50pt;
+    
+}
+
+p.simp {
+    color:black;
+}
